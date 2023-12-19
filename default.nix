@@ -1,7 +1,7 @@
 { lib, python311Packages, fetchFromGitHub, fetchgit }: 
 
 python311Packages.buildPythonPackage rec {
-  pname = "example-package";
+  pname = "mcap-protobuf-support";
   version = "1.0.0";
   format="pyproject";
   src_repo = fetchgit {
